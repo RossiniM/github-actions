@@ -1,0 +1,6 @@
+chore: 'enhancement/*'
+fix: ['bugfix/*', 'fix/*']
+feature: 'feature/*'
+release: 'release/*'
+hotfix: 'hotfix/*'
+backport: 'backport/*'
