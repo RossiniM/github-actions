@@ -1,0 +1,12 @@
+name: Add Changelog to Release
+on:
+  push:
+    tags:
+      - '*'
+jobs:
+  add-changelog-to-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: cejaramillof/add-changelog-to-release@0.0.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}

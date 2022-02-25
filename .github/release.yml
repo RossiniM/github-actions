@@ -1,0 +1,25 @@
+changelog:
+  categories:
+    - title: '🐛 Bug Fixes'
+      labels:
+        - patch
+        - hotfix
+    - title: '🚀 Features'
+      labels:
+        - minor
+        - release
+        - enhancement
+        - fix
+    - title: '🧰 Maintenance'
+      labels:
+        - chore
+        - docs
+    - title: 🛠 Breaking Changes
+      labels:
+        - major
+    - title: 🔙 Backport
+      labels:
+        - backport
+    - title: Other Changes
+      labels:
+        - "*"
